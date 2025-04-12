@@ -1,0 +1,75 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4361ee, #3f37c9);
+    padding: 20px;
+  }
+  
+  .auth-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .auth-card h2 {
+    color: var(--primary);
+    margin-bottom: 10px;
+  }
+  
+  .auth-card p {
+    color: var(--gray);
+    margin-bottom: 20px;
+  }
+  
+  .role-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .role-btn {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .role-btn.active {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .btn-block {
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .auth-footer {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .auth-footer a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .auth-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-check-label {
+    margin-left: 5px;
+    font-weight: normal;
+  }
